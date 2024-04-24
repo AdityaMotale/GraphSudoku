@@ -19,7 +19,7 @@ package com.adii.graphsudoku.domain
  */
 interface IStatisticsRepository {
     suspend fun getStatistics(
-        onSuccess: (UserStatistics) -> Unit,
+//        onSuccess: (UserStatistics) -> Unit,
         onError: (Exception) -> Unit,
     )
 
